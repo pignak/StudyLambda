@@ -1,3 +1,5 @@
+package primari;
+
 public class Persona {
 
     private String nome;
@@ -41,5 +43,10 @@ public class Persona {
                 ", congome='" + congome + '\'' +
                 ", eta=" + eta +
                 '}';
+    }
+
+    public int compare(Object obj)  {
+        Persona p = (Persona)obj;
+        return this.getNome().compareTo(p.getNome());
     }
 }
