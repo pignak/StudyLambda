@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7525f5e-9887-436b-87f0-51c05dc54371" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZglaCpJlAH1QRbiInt3zZl4RAK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="principale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="principale" />
+      <module name="SortListFunctional" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.principale" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7525f5e-9887-436b-87f0-51c05dc54371" name="Default Changelist" comment="" />
+      <created>1585268678840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585268678840</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585269547734">
+      <screen x="0" y="0" width="1366" height="744" />
+    </state>
+    <state x="141" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.744@0.0.1366.744" timestamp="1585269547734" />
+    <state x="491" y="92" width="491" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1585268760114">
+      <screen x="0" y="0" width="1366" height="744" />
+    </state>
+    <state x="491" y="92" width="491" height="562" key="#com.intellij.ide.util.MemberChooser/0.0.1366.744@0.0.1366.744" timestamp="1585268760114" />
+    <state width="1320" height="176" key="GridCell.Tab.0.bottom" timestamp="1585269905084">
+      <screen x="0" y="0" width="1366" height="744" />
+    </state>
+    <state width="1320" height="176" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585269905084" />
+    <state width="1320" height="176" key="GridCell.Tab.0.center" timestamp="1585269905083">
+      <screen x="0" y="0" width="1366" height="744" />
+    </state>
+    <state width="1320" height="176" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585269905083" />
+    <state width="1320" height="176" key="GridCell.Tab.0.left" timestamp="1585269905083">
+      <screen x="0" y="0" width="1366" height="744" />
+    </state>
+    <state width="1320" height="176" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585269905083" />
+    <state width="1320" height="176" key="GridCell.Tab.0.right" timestamp="1585269905084">
+      <screen x="0" y="0" width="1366" height="744" />
+    </state>
+    <state width="1320" height="176" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585269905084" />
+    <state x="500" y="310" width="360" height="126" key="ReplaceDuplicatesPrompt" timestamp="1585269327503">
+      <screen x="0" y="0" width="1366" height="744" />
+    </state>
+    <state x="500" y="310" width="360" height="126" key="ReplaceDuplicatesPrompt/0.0.1366.744@0.0.1366.744" timestamp="1585269327503" />
+    <state x="345" y="163" key="run.anything.popup" timestamp="1585269307134">
+      <screen x="0" y="0" width="1366" height="744" />
+    </state>
+    <state x="345" y="163" key="run.anything.popup/0.0.1366.744@0.0.1366.744" timestamp="1585269307134" />
+  </component>
+</project>
