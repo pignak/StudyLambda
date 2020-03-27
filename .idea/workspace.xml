@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7525f5e-9887-436b-87f0-51c05dc54371" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primari/IOrdinaCognome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/IElementiLista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/Persona.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/principale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IElementiLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacceFunzinoali/IElementiLista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/principale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/primari/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortListFunctional/primari/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/primari/principale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortListFunctional/primari/principale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/primari/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/primari/principale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/principale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
     <configuration name="principale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -76,26 +72,34 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="491" y="92" width="491" height="562" key="#com.intellij.ide.util.MemberChooser/0.0.1366.744@0.0.1366.744" timestamp="1585268760114" />
-    <state width="1320" height="170" key="GridCell.Tab.0.bottom" timestamp="1585271582184">
+    <state x="98" y="100" width="1170" height="546" key="DiffContextDialog" timestamp="1585272249129">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="170" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585271582184" />
-    <state width="1320" height="170" key="GridCell.Tab.0.center" timestamp="1585271582183">
+    <state x="98" y="100" width="1170" height="546" key="DiffContextDialog/0.0.1366.744@0.0.1366.744" timestamp="1585272249129" />
+    <state width="1320" height="190" key="GridCell.Tab.0.bottom" timestamp="1585272845039">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="170" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585271582183" />
-    <state width="1320" height="170" key="GridCell.Tab.0.left" timestamp="1585271582183">
+    <state width="1320" height="190" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585272845039" />
+    <state width="1320" height="190" key="GridCell.Tab.0.center" timestamp="1585272845038">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="170" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585271582183" />
-    <state width="1320" height="170" key="GridCell.Tab.0.right" timestamp="1585271582183">
+    <state width="1320" height="190" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585272845038" />
+    <state width="1320" height="190" key="GridCell.Tab.0.left" timestamp="1585272845037">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="170" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585271582183" />
+    <state width="1320" height="190" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585272845037" />
+    <state width="1320" height="190" key="GridCell.Tab.0.right" timestamp="1585272845038">
+      <screen x="0" y="0" width="1366" height="744" />
+    </state>
+    <state width="1320" height="190" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585272845038" />
     <state x="500" y="310" width="360" height="126" key="ReplaceDuplicatesPrompt" timestamp="1585269327503">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="500" y="310" width="360" height="126" key="ReplaceDuplicatesPrompt/0.0.1366.744@0.0.1366.744" timestamp="1585269327503" />
+    <state x="179" y="8" key="SettingsEditor" timestamp="1585272268325">
+      <screen x="0" y="0" width="1366" height="744" />
+    </state>
+    <state x="179" y="8" key="SettingsEditor/0.0.1366.744@0.0.1366.744" timestamp="1585272268325" />
     <state x="345" y="163" key="run.anything.popup" timestamp="1585269307134">
       <screen x="0" y="0" width="1366" height="744" />
     </state>

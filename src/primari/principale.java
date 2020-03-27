@@ -1,5 +1,6 @@
 package primari;
 
+import com.sun.org.apache.bcel.internal.generic.ARETURN;
 import interfacceFunzinoali.IElementiLista;
 
 import java.util.*;
@@ -22,7 +23,6 @@ public class principale {
             }
         };
         elementi.operazioneLista(persone);
-
         System.out.println("--------");
 
         //2 stampa nomi con congome che inizia per 'r'
@@ -34,18 +34,14 @@ public class principale {
             }
         };
         personaPerCognome.operazioneLista(persone);
-
-        System.out.println("--------");
+        System.out.println("++++++");
 
         //3 ordinamento lista per cognome e sua stampa
         System.out.println("ordinamento lista per cognome");
-        IElementiLista listaOrdinata = (listaPersone) -> {
-            Collections.sort(listaPersone, Persona::compare);
-            for (Persona p : listaPersone) {
-                System.out.println(p.toString());
-            }
-        };
-        listaOrdinata.operazioneLista(persone);
+        Collections.sort(persone, (p1,p2) -> p1.getCongome().compareTo(p2.getCongome()));
+        for (Persona p : persone) {
+            System.out.println(p.toString());
+        }
     }
 
 }

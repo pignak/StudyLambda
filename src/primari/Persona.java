@@ -47,6 +47,6 @@ public class Persona {
 
     public int compare(Object obj)  {
         Persona p = (Persona)obj;
-        return this.getNome().compareTo(p.getNome());
+        return this.getCongome().compareTo(p.getCongome());
     }
 }
