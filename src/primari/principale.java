@@ -1,14 +1,12 @@
 package primari;
 
-import com.sun.org.apache.bcel.internal.generic.ARETURN;
 import interfacceFunzinoali.ICognome;
-import interfacceFunzinoali.IElementiLista;
 
 import java.util.*;
 
 public class principale {
 
-    public static void ordinametno(List<Persona> listaPersone, ICognome ic){
+    public static void stampa(List<Persona> listaPersone, ICognome ic){
         for (Persona p1 : listaPersone) {
             if(ic.controlloLettera(p1))
                 System.out.println(p1.toString());
@@ -23,28 +21,23 @@ public class principale {
                 new Persona("ghi","rmn",2)
                 );
 
+        System.out.println("++++++");
         //1 stampa tutte le persone (funzionale)
         System.out.println("stampa elementi della lista");
-        IElementiLista elementi = (listaPersone) -> {
-            for (Persona p : listaPersone) {
-                System.out.println(p.toString());
-            }
-        };
-        elementi.operazioneLista(persone);
+        stampa(persone, persona -> true);
+
         System.out.println("++++++");
 
         //2 stampa nomi con congome che inizia per 'r'
         System.out.println("stampa elemnti con congome che inizia per 'r'");
-        ordinametno(persone, p -> p.getCongome().charAt(0)=='r');
+        stampa(persone, persona -> persona.getCongome().charAt(0)=='r');
 
         System.out.println("++++++");
 
         //3 ordinamento lista per cognome e sua stampa
         System.out.println("ordinamento lista per cognome");
-        Collections.sort(persone, Comparator.comparing(Persona::getCongome));
-        for (Persona p : persone) {
-            System.out.println(p.toString());
-        }
+        Collections.sort(persone, (p1,p2) -> p1.getCongome().compareTo(p2.getCongome()));
+        stampa(persone, persona -> true);
     }
 
 }
