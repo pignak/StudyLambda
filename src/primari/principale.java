@@ -14,12 +14,8 @@ public class principale {
     }
 
     public static void main(String[] args) {
-        List<Persona> persone = Arrays.asList(
-                new Persona("uvz","lettere finite",4),
-                new Persona("abc","def",1),
-                new Persona("opq","rst",3),
-                new Persona("ghi","rmn",2)
-                );
+        List<Persona> persone = new ArrayList<>();
+        Persona.metodoDiAggiuntaTemporaneo(persone);
 
         System.out.println("++++++");
         //1 stampa tutte le persone (funzionale)

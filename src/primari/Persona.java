@@ -1,5 +1,7 @@
 package primari;
 
+import java.util.List;
+
 public class Persona {
 
     private String nome;
@@ -48,5 +50,12 @@ public class Persona {
     public int compare(Object obj)  {
         Persona p = (Persona)obj;
         return this.getCongome().compareTo(p.getCongome());
+    }
+
+    public static void metodoDiAggiuntaTemporaneo(List<Persona> persone){
+        persone.add(new Persona("uvz","lettere finite",20));
+        persone.add(new Persona("abc","def",31));
+        persone.add(new Persona("opq","rst",12));
+        persone.add(new Persona("ghi","rmn",40));
     }
 }
