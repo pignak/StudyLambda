@@ -12,7 +12,7 @@ public class ExceptionLambda {
         quadrato(numeri, n -> System.out.println(n*n));
         System.out.println();
         System.out.println("----SOMMA DI TUTTI GLI ELEMENTI----");
-        operazioneNumeri(numeri,NUMERO, performOperation((numero, divisore) -> System.out.println("----prima operazione----")));
+        operazioneNumeri(numeri,NUMERO, performOperation((numero, divisore) -> System.out.println(numero/divisore)));
     }
 
     private static void quadrato(int[] numeri, Consumer<Integer> consumer){
@@ -27,8 +27,13 @@ public class ExceptionLambda {
         }
     }
 
-    private static BiConsumer<Integer,Integer> performOperation(BiConsumer<Integer, Integer> consumer){
-        return (a,b) -> System.out.println("-seconda operazione-");
+    private static BiConsumer<Integer,Integer> performOperation(BiConsumer<Integer, Integer> consumer) {
+        return (a, b) -> {
+            try {
+                consumer.accept(a,b);
+            }catch (Exception e){
+            System.out.println(e.getMessage());
+            }
+        };
     }
-
 }
