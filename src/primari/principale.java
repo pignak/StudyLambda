@@ -3,6 +3,7 @@ package primari;
 import interfacceFunzinoali.ICognome;
 
 import java.util.*;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class principale {
@@ -20,7 +21,7 @@ public class principale {
 
         //2 stampa nomi con congome che inizia per 'r'
         System.out.println("stampa elemnti con congome che inizia per 'r'".toUpperCase());
-        inizioConUnaLettera(persone, p -> p.getCongome().charAt(0)=='r' || p.getCongome().charAt(0)=='R');
+        inizioConUnaLettera(persone, p -> p.getCongome().charAt(0)=='r' || p.getCongome().charAt(0)=='R', w -> System.out.println(w.toString()));
 
         System.out.println("++++++");
 
@@ -37,10 +38,10 @@ public class principale {
         }
     }
 
-    public static void inizioConUnaLettera(List<Persona> persone, Predicate<Persona> controllo){
+    public static void inizioConUnaLettera(List<Persona> persone, Predicate<Persona> controllo, Consumer<Persona> cons){
         for (Persona p : persone) {
             if(controllo.test(p))
-                System.out.println(p.toString());
+                cons.accept(p);
         }
     }
 

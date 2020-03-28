@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e7525f5e-9887-436b-87f0-51c05dc54371" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/primari/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortListFunctional/primari/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/primari/UseStreamJava8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortListFunctional/primari/UseStreamJava8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/primari/principale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortListFunctional/primari/principale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/primari/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/primari/principale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/principale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,22 +94,22 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="98" y="100" width="1170" height="546" key="DiffContextDialog/0.0.1366.744@0.0.1366.744" timestamp="1585272249129" />
-    <state width="1320" height="198" key="GridCell.Tab.0.bottom" timestamp="1585358611325">
+    <state width="1320" height="198" key="GridCell.Tab.0.bottom" timestamp="1585359209327">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585358611325" />
-    <state width="1320" height="198" key="GridCell.Tab.0.center" timestamp="1585358611322">
+    <state width="1320" height="198" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585359209327" />
+    <state width="1320" height="198" key="GridCell.Tab.0.center" timestamp="1585359209324">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585358611322" />
-    <state width="1320" height="198" key="GridCell.Tab.0.left" timestamp="1585358611321">
+    <state width="1320" height="198" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585359209324" />
+    <state width="1320" height="198" key="GridCell.Tab.0.left" timestamp="1585359209323">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585358611321" />
-    <state width="1320" height="198" key="GridCell.Tab.0.right" timestamp="1585358611322">
+    <state width="1320" height="198" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585359209323" />
+    <state width="1320" height="198" key="GridCell.Tab.0.right" timestamp="1585359209324">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585358611322" />
+    <state width="1320" height="198" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585359209324" />
     <state x="500" y="310" width="360" height="126" key="ReplaceDuplicatesPrompt" timestamp="1585269327503">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
