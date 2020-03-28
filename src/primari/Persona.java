@@ -55,7 +55,7 @@ public class Persona {
     public static void metodoDiAggiuntaTemporaneo(List<Persona> persone){
         persone.add(new Persona("uvz","lettere finite",20));
         persone.add(new Persona("abc","def",31));
-        persone.add(new Persona("opq","rst",12));
+        persone.add(new Persona("opq","Rst",12));
         persone.add(new Persona("ghi","rmn",40));
     }
 }

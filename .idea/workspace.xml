@@ -4,6 +4,7 @@
     <list default="true" id="e7525f5e-9887-436b-87f0-51c05dc54371" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/primari/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortListFunctional/primari/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/primari/UseStreamJava8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortListFunctional/primari/UseStreamJava8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/primari/principale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortListFunctional/primari/principale.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/primari/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/primari/principale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/principale.java" afterDir="false" />
@@ -34,9 +35,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.UseStreamJava8">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="principale" />
+      <command value="mvn" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.principale">
     <configuration name="UseStreamJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primari.UseStreamJava8" />
       <module name="SortListFunctional" />
@@ -59,8 +66,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseStreamJava8" />
         <item itemvalue="Application.principale" />
+        <item itemvalue="Application.UseStreamJava8" />
       </list>
     </recent_temporary>
   </component>
@@ -90,37 +97,37 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="98" y="100" width="1170" height="546" key="DiffContextDialog/0.0.1366.744@0.0.1366.744" timestamp="1585272249129" />
-    <state width="1320" height="127" key="GridCell.Tab.0.bottom" timestamp="1585357328972">
+    <state width="1320" height="198" key="GridCell.Tab.0.bottom" timestamp="1585358611325">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="127" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585357328972" />
-    <state width="1320" height="127" key="GridCell.Tab.0.center" timestamp="1585357328970">
+    <state width="1320" height="198" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585358611325" />
+    <state width="1320" height="198" key="GridCell.Tab.0.center" timestamp="1585358611322">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="127" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585357328970" />
-    <state width="1320" height="127" key="GridCell.Tab.0.left" timestamp="1585357328968">
+    <state width="1320" height="198" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585358611322" />
+    <state width="1320" height="198" key="GridCell.Tab.0.left" timestamp="1585358611321">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="127" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585357328968" />
-    <state width="1320" height="127" key="GridCell.Tab.0.right" timestamp="1585357328970">
+    <state width="1320" height="198" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585358611321" />
+    <state width="1320" height="198" key="GridCell.Tab.0.right" timestamp="1585358611322">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="127" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585357328970" />
+    <state width="1320" height="198" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585358611322" />
     <state x="500" y="310" width="360" height="126" key="ReplaceDuplicatesPrompt" timestamp="1585269327503">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="500" y="310" width="360" height="126" key="ReplaceDuplicatesPrompt/0.0.1366.744@0.0.1366.744" timestamp="1585269327503" />
-    <state x="179" y="8" key="SettingsEditor" timestamp="1585272268325">
+    <state x="179" y="8" key="SettingsEditor" timestamp="1585358031137">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state x="179" y="8" key="SettingsEditor/0.0.1366.744@0.0.1366.744" timestamp="1585272268325" />
+    <state x="179" y="8" key="SettingsEditor/0.0.1366.744@0.0.1366.744" timestamp="1585358031137" />
     <state x="362" y="200" key="com.intellij.ide.util.TipDialog" timestamp="1585355440000">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="362" y="200" key="com.intellij.ide.util.TipDialog/0.0.1366.744@0.0.1366.744" timestamp="1585355440000" />
-    <state x="345" y="163" key="run.anything.popup" timestamp="1585352877446">
+    <state x="345" y="163" width="672" height="677" key="run.anything.popup" timestamp="1585358447618">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state x="345" y="163" key="run.anything.popup/0.0.1366.744@0.0.1366.744" timestamp="1585352877446" />
+    <state x="345" y="163" width="672" height="677" key="run.anything.popup/0.0.1366.744@0.0.1366.744" timestamp="1585358447618" />
   </component>
 </project>
