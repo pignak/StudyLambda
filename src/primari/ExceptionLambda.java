@@ -2,6 +2,7 @@ package primari;
 
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
+import java.util.function.ToLongBiFunction;
 
 public class ExceptionLambda {
 
@@ -13,6 +14,12 @@ public class ExceptionLambda {
         System.out.println();
         System.out.println("----SOMMA DI TUTTI GLI ELEMENTI----");
         operazioneNumeri(numeri,NUMERO, performOperation((numero, divisore) -> System.out.println(numero/divisore)));
+        effettuaOperazioneInLambdaExpression(1,2,(a,b)->a+b);
+    }
+
+    private static void effettuaOperazioneInLambdaExpression(long a, long b, ToLongBiFunction<Long,Long> somma){
+        long som = somma.applyAsLong(a,b);
+        System.out.println(som);
     }
 
     private static void quadrato(int[] numeri, Consumer<Integer> consumer){
