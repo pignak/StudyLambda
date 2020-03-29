@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7525f5e-9887-436b-87f0-51c05dc54371" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pignak.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aa/SystemA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/aa/PrimaClasse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortListFunctional/primari/MethodsReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortListFunctional/primari/MethodsReference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aa/PrimaClasse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/primari/MethodsReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/MethodsReference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +48,26 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MethodsReference">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="ExceptionLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primari.ExceptionLambda" />
       <module name="SortListFunctional" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="primari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aa.MainClass" />
+      <module name="SortListFunctional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MethodsReference" />
         <item itemvalue="Application.ExceptionLambda" />
         <item itemvalue="Application.principale" />
@@ -125,22 +144,22 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="98" y="100" width="1170" height="546" key="DiffContextDialog/0.0.1366.744@0.0.1366.744" timestamp="1585272249129" />
-    <state width="1320" height="198" key="GridCell.Tab.0.bottom" timestamp="1585446054569">
+    <state width="1320" height="105" key="GridCell.Tab.0.bottom" timestamp="1585448912144">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585446054569" />
-    <state width="1320" height="198" key="GridCell.Tab.0.center" timestamp="1585446054568">
+    <state width="1320" height="105" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585448912144" />
+    <state width="1320" height="105" key="GridCell.Tab.0.center" timestamp="1585448912143">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585446054568" />
-    <state width="1320" height="198" key="GridCell.Tab.0.left" timestamp="1585446054568">
+    <state width="1320" height="105" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585448912143" />
+    <state width="1320" height="105" key="GridCell.Tab.0.left" timestamp="1585448912142">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585446054568" />
-    <state width="1320" height="198" key="GridCell.Tab.0.right" timestamp="1585446054569">
+    <state width="1320" height="105" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585448912142" />
+    <state width="1320" height="105" key="GridCell.Tab.0.right" timestamp="1585448912143">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585446054569" />
+    <state width="1320" height="105" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585448912143" />
     <state x="500" y="310" width="360" height="126" key="ReplaceDuplicatesPrompt" timestamp="1585269327503">
       <screen x="0" y="0" width="1366" height="744" />
     </state>

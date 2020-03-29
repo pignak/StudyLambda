@@ -1,7 +1,5 @@
 package primari;
 
-import aa.PrimaClasse;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.function.Consumer;
@@ -17,6 +15,7 @@ public class MethodsReference {
         aSchermo(1,System.out::println);
 
         System.out.println("----");
+
         ArrayList<Integer> numeri = new ArrayList<>();
         numeri.add(10);
         numeri.add(11);
