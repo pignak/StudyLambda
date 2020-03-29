@@ -17,7 +17,7 @@ public class ExceptionLambda {
         effettuaOperazioneInLambdaExpression(1,2,(a,b)->a+b);
     }
 
-    private static void effettuaOperazioneInLambdaExpression(long a, long b, ToLongBiFunction<Long,Long> somma){
+    private static void effettuaOperazioneInLambdaExpression(int a, int b, ToLongBiFunction<Integer,Integer> somma){
         long som = somma.applyAsLong(a,b);
         System.out.println(som);
     }

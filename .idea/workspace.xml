@@ -43,9 +43,22 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExceptionLambda">
+  <component name="RunManager" selected="Application.LambdaAndMethods">
     <configuration name="ExceptionLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primari.ExceptionLambda" />
+      <module name="SortListFunctional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaAndMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primari.LambdaAndMethods" />
       <module name="SortListFunctional" />
       <extension name="coverage">
         <pattern>
@@ -79,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaAndMethods" />
         <item itemvalue="Application.ExceptionLambda" />
         <item itemvalue="Application.principale" />
         <item itemvalue="Application.UseStreamJava8" />
@@ -111,22 +125,22 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="98" y="100" width="1170" height="546" key="DiffContextDialog/0.0.1366.744@0.0.1366.744" timestamp="1585272249129" />
-    <state width="1320" height="198" key="GridCell.Tab.0.bottom" timestamp="1585439806382">
+    <state width="1320" height="198" key="GridCell.Tab.0.bottom" timestamp="1585441604131">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585439806382" />
-    <state width="1320" height="198" key="GridCell.Tab.0.center" timestamp="1585439806382">
+    <state width="1320" height="198" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585441604131" />
+    <state width="1320" height="198" key="GridCell.Tab.0.center" timestamp="1585441604130">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585439806382" />
-    <state width="1320" height="198" key="GridCell.Tab.0.left" timestamp="1585439806381">
+    <state width="1320" height="198" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585441604130" />
+    <state width="1320" height="198" key="GridCell.Tab.0.left" timestamp="1585441604130">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585439806381" />
-    <state width="1320" height="198" key="GridCell.Tab.0.right" timestamp="1585439806382">
+    <state width="1320" height="198" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585441604130" />
+    <state width="1320" height="198" key="GridCell.Tab.0.right" timestamp="1585441604130">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585439806382" />
+    <state width="1320" height="198" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585441604130" />
     <state x="500" y="310" width="360" height="126" key="ReplaceDuplicatesPrompt" timestamp="1585269327503">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
@@ -147,5 +161,16 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="345" y="163" width="672" height="677" key="run.anything.popup/0.0.1366.744@0.0.1366.744" timestamp="1585358447618" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/primari/Persona.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
