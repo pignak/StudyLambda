@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e7525f5e-9887-436b-87f0-51c05dc54371" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/primari/ExceptionLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/ExceptionLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/primari/LambdaAndMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primari/MethodsReference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaAndMethods">
+  <component name="RunManager" selected="Application.MethodsReference">
     <configuration name="ExceptionLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primari.ExceptionLambda" />
       <module name="SortListFunctional" />
@@ -57,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaAndMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="primari.LambdaAndMethods" />
+    <configuration name="MethodsReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primari.MethodsReference" />
       <module name="SortListFunctional" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaAndMethods" />
+        <item itemvalue="Application.MethodsReference" />
         <item itemvalue="Application.ExceptionLambda" />
         <item itemvalue="Application.principale" />
         <item itemvalue="Application.UseStreamJava8" />
@@ -113,10 +113,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585269547734">
+    <state x="141" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585442265670">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state x="141" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.744@0.0.1366.744" timestamp="1585269547734" />
+    <state x="141" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.744@0.0.1366.744" timestamp="1585442265670" />
     <state x="491" y="92" width="491" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1585268760114">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
@@ -125,22 +125,22 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="98" y="100" width="1170" height="546" key="DiffContextDialog/0.0.1366.744@0.0.1366.744" timestamp="1585272249129" />
-    <state width="1320" height="198" key="GridCell.Tab.0.bottom" timestamp="1585441604131">
+    <state width="1320" height="198" key="GridCell.Tab.0.bottom" timestamp="1585442404581">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585441604131" />
-    <state width="1320" height="198" key="GridCell.Tab.0.center" timestamp="1585441604130">
+    <state width="1320" height="198" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585442404581" />
+    <state width="1320" height="198" key="GridCell.Tab.0.center" timestamp="1585442404580">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585441604130" />
-    <state width="1320" height="198" key="GridCell.Tab.0.left" timestamp="1585441604130">
+    <state width="1320" height="198" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585442404580" />
+    <state width="1320" height="198" key="GridCell.Tab.0.left" timestamp="1585442404580">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585441604130" />
-    <state width="1320" height="198" key="GridCell.Tab.0.right" timestamp="1585441604130">
+    <state width="1320" height="198" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585442404580" />
+    <state width="1320" height="198" key="GridCell.Tab.0.right" timestamp="1585442404581">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585441604130" />
+    <state width="1320" height="198" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585442404581" />
     <state x="500" y="310" width="360" height="126" key="ReplaceDuplicatesPrompt" timestamp="1585269327503">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
