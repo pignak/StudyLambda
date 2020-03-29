@@ -1,5 +1,7 @@
 package primari;
 
+import aa.SystemA;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.function.Consumer;
@@ -23,7 +25,7 @@ public class MethodsReference {
         numeri.add(13);
         System.out.println("static method forEach");
         numeri.forEach(System.out::println);
-        //numeri.forEach(PrimaClasse.st::siso); //using my static method
+        //numeri.forEach(SystemA.out::println); //using my static method
         System.out.println("using lambda");
         numeri.forEach(n -> System.out.println(n)); //using lambda expression
     }
