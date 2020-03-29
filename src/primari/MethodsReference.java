@@ -20,7 +20,10 @@ public class MethodsReference {
         numeri.add(11);
         numeri.add(12);
         numeri.add(13);
-        numeri.forEach(System.out::println);
+        System.out.println("static method forEach");
+        numeri.forEach(System.out::println); //using static method
+        System.out.println("using lambda");
+        numeri.forEach(n -> System.out.println(n)); //using lambda expression
     }
 
     private static void stampaCose(){
